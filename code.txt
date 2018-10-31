@@ -1,0 +1,78 @@
+        //
+        //        final int NUM_BALLS = 75, NUM_PULL = 10;
+        //        ArraySet<bingoBall> bingo = new ArraySet<>();
+        //        bingoBall ball;
+        //        for (int i = 1; i <= NUM_BALLS; i++) {
+        //            ball = new bingoBall(i);
+        //            bingo.add(ball);
+        //        }
+        //        System.out.println("Size " + bingo.size());
+        //        for (int i = 1; i <= NUM_PULL; i++) {
+        //            ball = bingo.removeRandom();
+        //            System.out.println(ball);
+        //        }
+
+        //        ArraySet<String> arreglo = new ArraySet<String>();
+        //        arreglo.add("juan");
+        //        arreglo.add("juan");
+        //        arreglo.add("juan");
+        //        arreglo.add("juan");
+        //        arreglo.add("Carlitos");
+        //        arreglo.add("Carlitos");
+        //        arreglo.add("Carlitos");
+        //        arreglo.add("fernado");
+        //        arreglo.add("fernado");
+        //        arreglo.add("fernado");
+        //        arreglo.add("jorge");
+        //        arreglo.add("jorge");
+        //        arreglo.add("luis");
+        //
+        //        Iterator t = arreglo.interator();
+        //        while (t.hasNext()) {
+        //            System.out.println(t.next());
+        //        }   
+
+
+
+
+
+
+//        Persona p = new Persona();
+//        Persona p1 = new Persona();
+//        p.name = "alex";
+//        p1.name = "david";
+//
+//        p.next = p1;//david p->p1
+//        p1.next = p;//alex  p1->p
+//        System.out.println(p.next.name);//next
+
+
+        String[] a = new String[5];
+        a[0] = "juan";
+        a[1] = "martinez";
+        a[2] = "osorio";
+        a[3] = "paco";
+        a[4] = "maria";
+
+
+
+
+ linkedSet<String> arreglo = new linkedSet<String>();
+        arreglo.add("juan");
+        arreglo.add("juan");
+        arreglo.add("juan");
+        arreglo.add("juan");
+        arreglo.add("Carlitos");
+        arreglo.add("Carlitos");
+        arreglo.add("Carlitos");
+        arreglo.add("fernado");
+        arreglo.add("fernado");
+        arreglo.add("fernado");
+        arreglo.add("jorge");
+        arreglo.add("jorge");
+        arreglo.add("luis");
+
+        Iterator t = arreglo.interator();
+        while (t.hasNext()) {
+            System.out.println(t.next());
+        }
